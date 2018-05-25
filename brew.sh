@@ -23,7 +23,10 @@ brew install watch
 brew install grep
 
 # optimized searching with `ag`
-brew install the_silver_searcher
+#brew install the_silver_searcher <= DEPRECATED
+
+# even faster searching with `rg`
+brew install rg
 
 ### NETWORK CALLS
 
