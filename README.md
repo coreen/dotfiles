@@ -13,3 +13,9 @@ iTerm2: https://www.iterm2.com/
 chmod +x *.sh
 ./initial-setup.sh
 ```
+
+Initial setup defaults to `bash` shell, if you would like to use `zsh` instead run
+
+```
+./zsh-setup.sh
+```
