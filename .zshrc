@@ -26,4 +26,8 @@ fi
 # load nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
- 
+
+# load z
+if [ -f $(brew --prefix)/etc/profile.d/z.sh ]; then
+	. $(brew --prefix)/etc/profile.d/z.sh
+fi
