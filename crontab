@@ -1,0 +1,11 @@
+# Minute   Hour   DayOfMonth    Month    DayOfWeek    Command
+# (0-59)  (0-23)    (1-31)     (1-12)      (0-6)
+
+#    0      *         *          *           *       <enter command here>
+# run once an hour
+
+#    0     7,19       *          *           *       <enter command here>
+# run twice daily at 7am and 7pm
+
+#    0      17        *          *           *       <enter command here>
+# run daily at 5pm

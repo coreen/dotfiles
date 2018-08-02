@@ -2,12 +2,9 @@
 
 ## New computer setup from scratch
 
-# use `command -v` over `which` to find if a command exists to avoid launching external process
-if ! command -v wget >> /dev/null; then
-	# need homebrew to run brew script
-	if ! command -v brew >> /dev/null; then
-		/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-	fi
+# need homebrew to run brew script
+if ! command -v brew >> /dev/null; then
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # permissions for making `brew.sh` executable in README usage instructions
