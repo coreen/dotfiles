@@ -1,7 +1,6 @@
 # aliases
 alias grep="/usr/local/opt/grep/bin/ggrep"
 alias logs="jq . service.log | less"
-alias clean="docker rm -fv $(docker ps -aq)"
 
 # path to oh-my-zsh installation
 export ZSH=$HOME/.oh-my-zsh
@@ -18,7 +17,6 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # git autocompletion
-$HOME/.zsh/gitprompt.sh
 if [ -f $(brew --prefix)/etc/bash_completion.d/git-completion.zsh ]; then
 	. $(brew --prefix)/etc/bash_completion.d/git-completion.zsh
 fi
