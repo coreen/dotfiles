@@ -6,12 +6,15 @@
 ## External installations
 
 Sublime Text ([2](https://www.sublimetext.com/2) or [3](https://www.sublimetext.com/3))
-  - good cross platform text editor with plenty of plugins for quick development
+  - good cross platform text editor with plenty of plugins for quick development ([package manager installation](https://packagecontrol.io/installation))
     - Git (blame): https://packagecontrol.io/packages/Git
     - JSON (pretty print): https://packagecontrol.io/packages/Pretty%20JSON
   - _Nice to have:_ launch via command line by following the instructions in the following links
     - Sublime Text 2: https://www.sublimetext.com/docs/2/osx_command_line.html
     - Sublime Text 3: https://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/
+
+[Docker](https://docs.docker.com/release-notes/)
+  - containerized development environments using a `docker-compose.yml` file in the project repository
 
 ### Mac OS X specific installations
 

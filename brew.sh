@@ -65,7 +65,7 @@ brew install maven
 
 ### JAVASCRIPT
 
-# initial version of `node`, also automatically installs `nvm`
+# initial version of `node`, also automatically installs `npm`
 brew install node
 
 # newer package manager
@@ -80,7 +80,4 @@ brew install sqlite
 brew install mysql
 
 # multiple versions of mongo
-#brew install mongodb@2.6 <= DEPRECATED
-brew install mongodb@3.2
-brew install mongodb@3.4
-
+brew install mongodb
