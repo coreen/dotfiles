@@ -1,7 +1,3 @@
-# aliases
-alias grep="/usr/local/opt/grep/bin/ggrep"
-alias logs="jq . service.log | less"
-
 # path to oh-my-zsh installation
 export ZSH=$HOME/.oh-my-zsh
 
@@ -29,3 +25,9 @@ export NVM_DIR="$HOME/.nvm"
 if [ -f $(brew --prefix)/etc/profile.d/z.sh ]; then
 	. $(brew --prefix)/etc/profile.d/z.sh
 fi
+
+# aliases
+alias grep="/usr/local/opt/grep/bin/ggrep"
+alias logs="jq . service.log | less"
+alias dcb="docker-compose build"
+alias dcu="docker-compose up -d"

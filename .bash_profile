@@ -17,3 +17,9 @@ export NVM_DIR="$HOME/.nvm"
 if [ -f $(brew --prefix)/etc/profile.d/z.sh ]; then
 	. $(brew --prefix)/etc/profile.d/z.sh
 fi
+
+# aliases
+alias grep="/usr/local/opt/grep/bin/ggrep"
+alias logs="jq . service.log | less"
+alias dcb="docker-compose build"
+alias dcu="docker-compose up -d"
