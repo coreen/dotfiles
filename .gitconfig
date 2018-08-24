@@ -8,7 +8,10 @@
 	ah = commit --amend -C HEAD
 	b = branch
 	bd = branch -D
-	c = commit -m
+	c = commit
+	ca = commit --amend
+	cl = clone
+	cm = commit -m
 	co = checkout
 	cob = checkout -b
 	cp = cherry-pick
@@ -21,7 +24,9 @@
 	ldm = diff master --name-only
 	p = push origin
 	pl = pull origin
+	pr = remote prune origin
 	rb = rebase
+	rbi = rebase -i HEAD~5
 	rbm = rebase master
 	rh = reset HEAD .
 	s = status
