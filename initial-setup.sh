@@ -13,3 +13,6 @@ fi
 # `nvm` for easily switching between node versions
 # requires initialization in .bash_profile or .zshrc
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+
+# apply custom configs
+source .bash_profile
