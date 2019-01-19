@@ -22,7 +22,7 @@
 	l = log
 	ld = diff --name-only
 	ldm = diff master --name-only
-	p = push origin
+	p = push -u origin
 	pl = pull origin
 	pr = remote prune origin
 	rb = rebase
