@@ -19,6 +19,7 @@
 	dm = diff master 
 	f = fetch
 	fp = push origin -f
+	ft = fetch --tags -f -p
 	l = log
 	ld = diff --name-only
 	ldm = diff master --name-only
@@ -32,6 +33,7 @@
 	s = status
 	sh = stash
 	sp = stash pop
+	t = tag
 [color]
 	ui = true
 [core]
