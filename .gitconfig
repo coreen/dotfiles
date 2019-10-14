@@ -17,7 +17,7 @@
 	cp = cherry-pick
 	d = diff
 	dm = diff master 
-	f = fetch
+	f = fetch origin
 	fp = push origin -f
 	ft = fetch --tags -f -p
 	l = log
