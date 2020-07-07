@@ -19,21 +19,20 @@ Sublime Text ([2](https://www.sublimetext.com/2) or [3](https://www.sublimetext.
 ### Mac OS X specific installations
 
 iTerm2: https://www.iterm2.com/
-  - offers more features (i.e. split screen) than MacOS Terminal
-
-Itsycal: https://www.mowglii.com/itsycal/
-  - inline calendar under time/date in menu bar
-  - _Note:_ set `Preferences > Apperance > Datetime pattern` to the following to completely replace the MacOS native `Date & Time`
-
-```
-E, MMM d h:mm a
-```
+  - offers more features (e.g. split screen) than MacOS Terminal
 
 Alfred: https://www.alfredapp.com
   - alternative quick search that allows for custom URL shortcuts (i.e. JIRA ticket quick query)
 
 ![Alfred Example Screenshot](https://github.com/coreen/dotfiles/blob/master/Alfred_Example.jpg)
 
+### Language specific installations
+
+IntelliJ: https://www.jetbrains.com/idea/download/
+  - Java IDE with nice search and class navigation capabilities
+  - import `./intellij/settings.zip` file for a MacOS/Eclipse custom keybinding
+    - Alt-Shift-O for opening file by classname (MacOS)
+    - Ctrl-H for keyword search (Eclipse)
 
 ## Usage
 
