@@ -31,7 +31,7 @@ Alfred: https://www.alfredapp.com
 IntelliJ: https://www.jetbrains.com/idea/download/
   - Java IDE with nice search and class navigation capabilities
   - import `./intellij/settings.zip` file for a MacOS/Eclipse custom keybinding
-    - Alt-Shift-O for opening file by classname (MacOS)
+    - Cmd-Shift-O for opening file by classname (MacOS)
     - Ctrl-H for keyword search (Eclipse)
 
 ## Usage
