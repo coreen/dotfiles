@@ -31,7 +31,9 @@
 	rbm = rebase master
 	rh = reset HEAD .
 	s = status
+	sc = stash clear
 	sh = stash
+	sl = stash list
 	sp = stash pop
 	t = tag
 [color]
