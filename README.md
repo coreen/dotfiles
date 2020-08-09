@@ -33,6 +33,7 @@ IntelliJ: https://www.jetbrains.com/idea/download/
   - import `./intellij/settings.zip` file for a MacOS/Eclipse custom keybinding
     - Cmd-Shift-O for opening file by classname (MacOS)
     - Ctrl-H for keyword search (Eclipse)
+    - Avoid star imports for files, explicit preferred
 
 ## Usage
 
