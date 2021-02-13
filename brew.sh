@@ -78,6 +78,3 @@ brew install sqlite
 
 # more complete version of sql
 brew install mysql
-
-# multiple versions of mongo
-brew install mongodb
