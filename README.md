@@ -24,7 +24,7 @@ iTerm2: https://www.iterm2.com/
 Alfred: https://www.alfredapp.com
   - alternative quick search that allows for custom URL shortcuts (i.e. JIRA ticket quick query)
 
-![Alfred Example Screenshot](https://github.com/coreen/dotfiles/blob/master/Alfred_Example.jpg)
+![Alfred Example Screenshot](https://github.com/coreen/dotfiles/blob/master/Alfred_Example.png)
 
 ### Language specific installations
 
