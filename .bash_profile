@@ -4,6 +4,13 @@ export PATH="/usr/local/bin:$PATH"
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
+# Maven
+export M3_HOME="/usr/local"
+export PATH=$M3_HOME/bin:$PATH
+
+# Java 8
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
+
 # bash git completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
