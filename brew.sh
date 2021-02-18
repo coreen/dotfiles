@@ -55,12 +55,6 @@ brew install screen
 # newer codebase with added features
 brew install tmux
 
-### JAVA
-
-# Java 8, verify with `javac -version`
-brew install openjdk@8
-sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk # override MacOS default
-
 ### BUILDERS
 
 # code compilation

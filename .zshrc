@@ -10,7 +10,17 @@ DISABLE_AUTO_UPDATE="true"
 # custom plugins
 plugins=(git)
 
+# disable verifying insecure directories
+ZSH_DISABLE_COMPFIX="true"
+
 source $ZSH/oh-my-zsh.sh
+
+# Maven
+export M3_HOME="/usr/local"
+export PATH=$M3_HOME/bin:$PATH
+
+# Java 8
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
 
 # git autocompletion
 if [ -f $(brew --prefix)/etc/bash_completion.d/git-completion.zsh ]; then
