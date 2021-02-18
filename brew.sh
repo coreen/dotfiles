@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Useful Homebrew packages
+### Useful Homebrew packages
 
 # TAB autocomplete, requires initialization in .bash_profile or .zshrc
 brew install bash-completion
@@ -71,7 +71,7 @@ brew install node
 # newer package manager
 brew install yarn
 
-# STORES
+### STORES
 
 # basic version of sql
 brew install sqlite
