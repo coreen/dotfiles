@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Useful Homebrew packages
+### Useful Homebrew packages
 
 # TAB autocomplete, requires initialization in .bash_profile or .zshrc
 brew install bash-completion
@@ -55,6 +55,12 @@ brew install screen
 # newer codebase with added features
 brew install tmux
 
+### JAVA
+
+# Java 8, verify with `javac -version`
+brew install openjdk@8
+sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk # override MacOS default
+
 ### BUILDERS
 
 # code compilation
@@ -71,7 +77,7 @@ brew install node
 # newer package manager
 brew install yarn
 
-# STORES
+### STORES
 
 # basic version of sql
 brew install sqlite
